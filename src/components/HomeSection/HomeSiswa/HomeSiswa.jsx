@@ -3,7 +3,7 @@ import SafeAreaView from "../../SafeAreaView/SafeAreaView";
 export default function HomeSiswa() {
   return (
     <>
-      <SafeAreaView className="bg-gradient-to-b from-[#F7EFFF] to-[#E9DBFF] h-screen">
+      <SafeAreaView className="bg-gradient-to-b from-[#F7EFFF] to-[#E9DBFF] h-screen flex flex-col">
         <div className="w-full mt-[24px] px-[16px]">
           {/* top content */}
           <div className="flex flex-col w-full">
@@ -67,7 +67,7 @@ export default function HomeSiswa() {
           </div>
         </div>
         {/* section bottom */}
-        <div className="bg-white w-full mt-[44px]">
+        <div className="bg-white w-full mt-[44px] flex-1">
           <div className="px-[16px] py-[36px] flex flex-col">
             {/* button laporan */}
             <button className="flex w-full items-center gap-[16px] rounded-[16px] bg-[#B18CFE] px-[16px] py-[12px]">
