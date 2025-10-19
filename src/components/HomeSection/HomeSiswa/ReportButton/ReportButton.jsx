@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom";
+
 export default function ReportButton() {
   return (
-    <button className="flex w-full items-center gap-[16px] rounded-[16px] bg-[#B18CFE] px-[16px] py-[12px]">
+    <Link
+      to="/download-laporan"
+      className="flex w-full items-center gap-[16px] rounded-[16px] bg-[#B18CFE] px-[16px] py-[12px]"
+    >
       <div className="flex h-[48px] w-[48px] items-center justify-center rounded-full bg-white">
         <img src="/assets/laporan.svg" alt="" />
       </div>
@@ -15,6 +20,6 @@ export default function ReportButton() {
           style={{ filter: "brightness(0) invert(1)" }}
         />
       </div>
-    </button>
+    </Link>
   );
 }
